@@ -44,7 +44,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/front.webp);
+  background-image: url(../images/hero-bg.jpg);
   background-size: cover;
 }
 
@@ -126,7 +126,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn {
-  background-image: url(../images/search-icon.png);
+  /* background-image: url(../images/search-icon.png); */
   background-size: 22px;
   background-repeat: no-repeat;
   background-position-y: 7px;
@@ -184,7 +184,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
-  color: #050505;
+  color: #ffffff;
 }
 
 .slider_section .detail-box h1 {
