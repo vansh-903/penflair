@@ -68,7 +68,7 @@ body {
 }
 
 .navbar {
-  padding: 10px 20px;
+  padding: 0;
 }
 
 body {
@@ -147,6 +147,14 @@ a:focus {
           align-items: center;
 }
 
+.navbar-toggler {
+  margin-top: -10px; /* Adjust to align with reduced white space */
+}
+
+.container {
+  max-width: 100%; /* Ensure the container spans the full width */
+}
+
 .navbar-brand img {
   width: 40px;
   margin-right: 5px;
@@ -157,7 +165,46 @@ a:focus {
   font-weight: 600;
   color: #000000;
   text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
 }
+
+.header_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2px 5px;
+}
+
+
+.logo-container {
+  text-align: center;
+  margin: auto;
+}
+
+.brand-logo {
+  width: 60px; /* Adjust logo size */
+  height: auto;
+  margin: 0 auto 0px;
+}
+
+.brand-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #730046; /* Match the maroon text color */
+  margin: 1px 0;
+  font-family: 'Georgia', serif;
+}
+
+.brand-subtitle {
+  font-size: 13px;
+  color: #730046; /* Match the maroon text color */
+  margin: 0;
+  font-family: 'Georgia', serif;
+  font-style: italic; /* Optional for a refined look */
+}
+
+
 
 .custom_nav-container {
   z-index: 99999;
