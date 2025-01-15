@@ -136,6 +136,8 @@ a:focus {
   border: none;
 }
 
+.med
+
 .navbar-brand {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,7 +194,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 span {
-  color: #e93f1a;
+  color: #ffffff;
 }
 
 .slider_section .detail-box p {
@@ -206,8 +208,9 @@ a:focus {
 .slider_section .detail-box .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #e93f1a;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #730046;
+  font-weight: 600;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
@@ -216,8 +219,8 @@ a:focus {
 
 .slider_section .detail-box .btn-box a:hover {
   background-color: transparent;
-  border-color: #e93f1a;
-  color: #e93f1a;
+  border-color: #730046;
+  color: #730046;
 }
 
 .slider_section #carouselExampleIndicators {
@@ -270,7 +273,7 @@ a:focus {
 }
 
 .slider_section .carousel-indicators li.active {
-  color: #e93f1a;
+  color: #730046;
 }
 
 .slider_section .custom_carousel-control {
@@ -326,7 +329,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 8px 35px;
-  background-color: #e93f1a;
+  background-color: #730046;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -337,8 +340,8 @@ a:focus {
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  border-color: #e93f1a;
-  color: #e93f1a;
+  border-color: #730046;
+  color: #730046;
 }
 
 .body_bg {
@@ -364,7 +367,7 @@ a:focus {
 .service_section .heading_container h2 {
   font-size: 32px;
   font-weight: bold;
-  color: #b62cc9;
+  color: #730046;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -467,7 +470,7 @@ a:focus {
 .quote_section .box .btn-box a {
   display: inline-block;
   padding: 10px 55px;
-  background-color: #e93f1a;
+  background-color: #730046;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -477,8 +480,8 @@ a:focus {
 
 .quote_section .box .btn-box a:hover {
   background-color: transparent;
-  border-color: #e93f1a;
-  color: #e93f1a;
+  border-color: #730046;
+  color: #730046;
 }
 
 
@@ -536,16 +539,16 @@ a:focus {
 }
 
 .contact_section .social_icons a:hover {
-  color: #e93f1a;
+  color: #730046;
 }
 
 .contact_section .back_to_top {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #f26363;
+  background-color: #730046;
   color: #eae4f0;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 5px;
   font-size: 14px;
   font-weight: bold;
@@ -554,8 +557,9 @@ a:focus {
 }
 
 .contact_section .back_to_top:hover {
-  background-color: #e93f1a;
-  color: #ffffff;
+  background-color: transparent;
+  border-color: #730046;
+  color: #730046;
 }
 
 /* end client_section */
