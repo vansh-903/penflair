@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Fregg</title>
+  <title>Penflair</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -38,12 +38,13 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-          <a class="navbar-brand mr-5" href="index.html">
-            <img src="images/logo.png" alt="">
-            <span>
-              Fregg
-            </span>
+        <nav class="navbar navbar-expand-lg custom_nav-container ml-1">
+          <a class="navbar-brand" href="index.html">
+            <div class="logo-container">
+              <img src="images/logo.png" alt="Penflair Logo" class="brand-logo">
+              <h1 class="brand-title">Penflair</h1>
+              <!-- <p class="brand-subtitle">Let Your Brand Shine with the Power of Words</p> -->
+            </div>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +53,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
-                <li class="nav-item ">
+                <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -61,7 +62,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="service.html"> Service </a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact us</a>
                 </li>
               </ul>
@@ -85,35 +86,31 @@
 
     <section class="contact_section">
       <div class="container">
-        <div class="heading_container">
-          <h2>
-            Let's Get In Touch!
-          </h2>
-        </div>
-      </div>
-      <div class="container contact_bg layout_padding2-top">
         <div class="row">
           <div class="col-md-6">
-            <div class="contact_form ">
-              <form action="">
-                <input type="text" placeholder="Name ">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="Message" class="message_input">
-                <button>
-                  Send
-                </button>
-              </form>
+            <div class="img-box">
+              <img src="images/contact-img.jpg" alt="Contact Us">
             </div>
           </div>
           <div class="col-md-6">
-            <div class="img-box">
-              <img src="images/contact-img.jpg" alt="">
-            </div>
+            <div class="contact_info">
+              <h2>Reach Out</h2>
+              <hr>
+              <p>Email: contact@penflair.com</p>
+              <p>Phone: +91 9876543210</p>
+              <p>Website: www.penflair.com</p>
+              <div class="social_icons">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </div>
+              <button onclick="window.location.href='index.html';" class="back_to_top">Back to Top</button>
+        </div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- end contact section -->
 
   </div>
